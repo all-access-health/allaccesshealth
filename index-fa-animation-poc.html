@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Access Health </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="assets/css/styles.css">  
+    <link rel="stylesheet" href="assets/css/fa-animation-poc.css">    
+  </head>
+  <body> 
+    <section class="navigation"> 
+      <button onclick="goToTop()" id="back-to-top" title="Go to top"><i class="fa fa-toggle-up"></i></button>    
+      <nav class="navbar">
+        <div class="logo-container">
+          <a href="#" title="HOME"><img src="assets/images/access-health-logo3.png" alt="access health logo" /></a>
+        </div>        
+        <div class="mobile-button">
+          <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+        </div>
+        <div class="links">
+          <a href="#about">ABOUT</a>          
+          <a href="#resources">RESOURCES</a>
+          <a href="#discover">DISCOVER</a>          
+          <a href="community.html">COMMUNITY</a>
+          <a href="#contact-us" >CONTACT</a>            
+        </div>
+        <div id="mobile-sidenav" class="mobile-links w3-sand">
+          <a href="javascript:void(0)" class="closebtn w3-round" onclick="toggleMobileNavigation()">&times;</a>
+          <a href="#about" onclick="toggleMobileNavigation()">ABOUT</a>
+          <a href="#resources" onclick="toggleMobileNavigation()">RESOURCES</a>
+          <a href="#discover" onclick="toggleMobileNavigation()">DISCOVER</a>
+          <a href="community.html" onclick="toggleMobileNavigation()">COMMUNITY</a>
+          <a href="#contact-us" onclick="toggleMobileNavigation()">CONTACT</a>
+        </div>
+      </nav>
+    </section>
+    <section class="hero w3-padding-large w3-container" id="about">
+      <h2>
+      	Access Health is the place for patients, families, and caregivers to learn about what educational / technological resources, and personal support groups are available to optimize their health, and those of their loved ones...  
+      </h2>
+      <a href="team.html#company-bio-long">Read more</a>            		    
+    </section>   
+    <section class="product-section body-section"  id="resources">         
+       <h2>RESOURCES</h2>
+      <div class="product-container">
+          <div class="product-item">
+            <i class="fa-solid fa-circle-plus fa-beat"></i>
+            <i class="fa-solid fa-heart fa-beat"></i>
+            <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s;"></i>
+            <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 2s;"></i>
+            <i class="fa-solid fa-heart fa-beat" style="--fa-beat-scale: 2.0;"></i>
+          </div>  
+            <div  class="card-icons-6">      
+              <div class="fa-3x">
+                <i class="fa-solid fa-wheelchair fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i  
+                <i class="fa-solid fa-user-md fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa-solid fa-medkit fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa-solid fa-heartbeat fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa-solid fa-fa-braille fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa-solid fa-ambulance fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>            
+              </div>                 
+            </div>
+            <div class="card-icons-6">  
+                <div class="fa-3x">                
+          <div class="card-icons-6">     xyz    </div>
+      </div>
+    </section>
+    <section class="product-section body-section body-section-top" id="discover">         
+         <h2> DISCOVER</h2>
+        <div class="product-container">
+            <div class="product-item">
+                <img src="assets/images/discover-health-gadget-reviews4.jpeg" class="product-image" alt="access health gadget reviews"/>
+                <br />
+                <p class="product-title"> GADGET REVIEWS</p>
+            </div>
+            <div class="product-item">
+                <img src="assets/images/discover-health-communities.png" class="product-image" alt="access health communities"/>
+                <br />
+                <p class="product-title"> COMMUNITIES</p>
+            </div>  
+            <div class="product-item">
+                <img src="assets/images/discover-health-blogs.png" class="product-image" alt="access health blogs"/>
+                <br />
+                <p class="product-title"> HEALTH BLOGS</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us-container body-section body-section-bottom">      
+        <h2> &#x2022; STAY IN TOUCH &#x2022; </h2>
+        <br />             
+      <div class="contact-us-row">
+      		<div class="contact-us-column column-left">
+            <div class="contact-section-menu">
+              <ul>
+                <li id="contact-form-button">CONTACT US </li>
+                <li id="subscribe-form-button">SUBSCRIBE</li>
+                <li id="chat-form-button">CHAT</li>
+              </ul>
+            </div>        		
+      		</div>
+      		<div class="contact-us-column column-right" id="contact-us">   
+            <div id="contact-form">
+              <form action="info.accesshealth@gmail.com">                
+                <input type="text" id="name" name="name" placeholder="Name">              
+                <input type="text" id="email" name="email" placeholder="Email">                                       
+                <textarea id="message" name="message" placeholder="Message" style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+              </form>    
+            </div>   
+
+            <div id="subscribe-form">
+              <h2>Subscribe to our newsletter to get the latest updates.</h2>
+              <form action="info.accesshealt@gmail.com">                                
+                <input type="text" id="email" name="email" placeholder="Email">                                        
+                <input type="submit" value="Subscribe">
+              </form>
+            </div>
+
+            <div id="chat-form">
+              <h2>Chat to one of our agents for further assistance.</h2>
+              <span class="icon-phone-square">
+                <i class="fa fa-5x fa-phone-square center"></i>
+              </span>              
+            </div>
+      		</div>
+      </div>
+  	</section>
+    <section class="w3-container footer">
+      <br><br>
+      <div class="w3-small contact-info">                     
+          <span style="margin-left:10px;">
+            <a href="#contact-us-form" title="info@urmenat.org"><i class="fa fa-envelope"></i></a>
+            info@accesshealth.com
+          </span> 
+          <br>
+          <span style="margin-left:10px;">
+            <i class="fa fa-phone-square"></i>
+            +1 656 25 76 78 5656 
+          </span>           
+          <br>          
+        </div>          
+    </section> 
+    <script type="text/javascript" src="assets/javascript/side-navigation-handler.js"></script>    
+  </body>
+  <script type="text/javascript" src="assets/javascript/contact-form-menu-handler-vanilla.js"></script>
+</html>

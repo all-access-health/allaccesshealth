@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Access Health </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">    
+  </head>
+  <body> 
+    <section class="navigation"> 
+      <button onclick="goToTop()" id="back-to-top" title="Go to top"><i class="fa fa-toggle-up"></i></button>    
+      <nav class="navbar">
+        <div class="logo-container">
+          <a href="#" title="HOME"><img src="assets/images/access-health-logo3.png" alt="access health logo" /></a>
+        </div>        
+        <div class="mobile-button">
+          <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+        </div>
+        <div class="links">
+          <a href="#about">ABOUT</a>          
+          <a href="#resources">RESOURCES</a>
+          <a href="#discover">DISCOVER</a>          
+          <a href="community.html">COMMUNITY</a>
+          <a href="#contact-us" >CONTACT</a>            
+        </div>
+        <div id="mobile-sidenav" class="mobile-links w3-sand">
+          <a href="javascript:void(0)" class="closebtn w3-round" onclick="toggleMobileNavigation()">&times;</a>
+          <a href="#about" onclick="toggleMobileNavigation()">ABOUT</a>
+          <a href="#resources" onclick="toggleMobileNavigation()">RESOURCES</a>
+          <a href="#discover" onclick="toggleMobileNavigation()">DISCOVER</a>
+          <a href="community.html" onclick="toggleMobileNavigation()">COMMUNITY</a>
+          <a href="#contact-us" onclick="toggleMobileNavigation()">CONTACT</a>
+        </div>
+      </nav>
+    </section>
+    <section class="hero w3-padding-large w3-container" id="about">
+      <h2>
+      	Access Health is the place for patients, families, and caregivers to learn about what educational / technological resources, and personal support groups are available to optimize their health, and those of their loved ones...  
+      </h2>
+      <a href="team.html#company-bio-long">Read more</a>            		    
+    </section>  
+    <section class="product-section body-section"  id="resources">         
+        <h2>RESOURCES</h2>
+        <div class="product-container">   
+          <!-- CARE GIVING -->
+            <div  class="card-icons-6 fa-5x center resources">                    
+                <i class="fa fa-solid fa-wheelchair fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i> 
+                <i class="fa fa-solid fa-user-md fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-medkit fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-heartbeat fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-smile-o fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-ambulance fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>  
+                <p class="card-title">CARE GIVING</p>                  
+            </div>
+            <!-- HEALTH KIT -->
+            <div class="card-icons-6 fa-5x center resources">                  
+                <i class="fa fa-solid fa-hospital-o fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>  
+                <i class="fa fa-solid fa-medkit fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-lemon-o fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-wheelchair-alt fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-h-square fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-thermometer-1 fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i> 
+                <span class="card-title">HEALTH KIT</span>                
+            </div>            
+            <!-- HEALTH CONDITIONS -->
+            <div class="card-icons-6 fa-5x center resources">         
+                <i class="fa fa-solid fa-bed fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i> 
+                <i class="fa fa-solid fa-stethoscope fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-blind fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-xyz" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-xyz fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-xyz fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>  
+                <p class="card-title">HEALTH CONDITIONS</p> 
+            </div>
+        </div>
+    </section>
+    <section class="product-section body-section body-section-top" id="discover">         
+        <h2> DISCOVER</h2>
+        <div class="product-container">
+            <!-- COMMUNITY -->
+            <div  class="card-icons-6 fa-5x center discover"> 
+                <i class="fa fa-solid fa-heartbeat fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i> 
+                <i class="fa fa-solid fa-male fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-users fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-map-pin fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-child fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-female fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>  
+                <p class="card-title">COMMUNITY</p> 
+                <!-- <span class="card-title">COMMUNITY</span> -->
+            </div>
+            <!-- GADGET REVIEWS -->
+            <div  class="card-icons-6 fa-5x center discover">  
+                <i class="fa fa-solid fa-check fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i> 
+                <i class="fa fa-solid fa-thumbs-up fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-mobile fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-bicycle fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-xyz fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-xyz fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i> 
+                <span class="card-title">GADGET REVIEWS</span> 
+            </div>
+            <!-- BLOGS -->
+            <div  class="card-icons-6 fa-5x center discover">  
+                <i class="fa fa-solid fa-commenting fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i> 
+                <i class="fa fa-solid fa-book fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-pencil fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-microhone fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-search fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i>
+                <i class="fa fa-solid fa-envelope-open fa-beat" style="--fa-beat-scale: 2.0;--fa-animation-duration: 2s;"></i> 
+                <span class="card-title">BLOGS</span> 
+            </div>
+        </div>
+    </section>   
+    <section class="contact-us-container body-section body-section-bottom">      
+        <h2> &#x2022; STAY IN TOUCH &#x2022; </h2>
+        <br />             
+      <div class="contact-us-row">
+      		<div class="contact-us-column column-left">
+            <div class="contact-section-menu">
+              <ul>
+                <li id="contact-form-button">CONTACT US </li>
+                <li id="subscribe-form-button">SUBSCRIBE</li>
+                <li id="chat-form-button">CHAT</li>
+              </ul>
+            </div>        		
+      		</div>
+      		<div class="contact-us-column column-right" id="contact-us">   
+            <div id="contact-form">
+              <form action="info.accesshealth@gmail.com">                
+                <input type="text" id="name" name="name" placeholder="Name">              
+                <input type="text" id="email" name="email" placeholder="Email">                                       
+                <textarea id="message" name="message" placeholder="Message" style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+              </form>    
+            </div>   
+            <div id="subscribe-form">
+              <h2>Subscribe to our newsletter to get the latest updates.</h2>
+              <form action="info.accesshealt@gmail.com">                                
+                <input type="text" id="email" name="email" placeholder="Email">                                        
+                <input type="submit" value="Subscribe">
+              </form>
+            </div>
+            <div id="chat-form">
+              <h2>Chat to one of our agents for further assistance.</h2>
+              <span class="icon-phone-square">
+                <i class="fa fa-5x fa-phone-square center"></i>
+              </span>              
+            </div>
+      		</div>
+      </div>
+  	</section>
+    <section class="footer">          
+      <div class="social-media">
+          <ul>
+            <li><a href="+134688854666"><i class="fa fa-phone phonecall" aria-hidden="true"></i></a></li>
+            <li><a href="info@ccesshealth.org"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+            <li><a href="https://wwww.facebook.com/all-access-health"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://wwww.instagram.com/all-access-health"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <!--<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-fascebook" aria-hidden="true"></i></a></li> -->
+          </ul>
+      </div>
+      <div class="w3-small contact-info">                              
+          <div class="telephone-title">+1 4474 488 48706</div>
+          <div class="facebook-title">www.facebook.com/accesshealth </div>
+          <div class="linkedin-title">www.linkedin.com/accesshealth </div>
+      </div> 
+    </section> 
+    <script type="text/javascript" src="assets/javascript/side-navigation-handler.js"></script>    
+  </body>
+  <script type="text/javascript" src="assets/javascript/contact-form-menu-handler-vanilla.js"></script>  
+</html>
